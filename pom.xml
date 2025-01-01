@@ -48,6 +48,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<dependency>
+			<groupId>io.github.cdimascio</groupId>
+			<artifactId>dotenv-java</artifactId>
+			<version>3.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -55,9 +60,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version> <!-- Versão do plugin (opcional, mas recomendada) -->
 				<configuration>
-					<source>17</source>
-					<target>17</target>
+					<source>17</source>   <!-- Versão do Java para o código fonte -->
+					<target>17</target>   <!-- Versão do Java para o bytecode gerado -->
 				</configuration>
 			</plugin>
 			<plugin>
@@ -70,5 +76,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
