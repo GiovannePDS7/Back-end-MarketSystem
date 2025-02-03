@@ -48,6 +48,8 @@ After registering products, users can add them to the shopping cart. The cart in
 
 When a purchase is completed, the system automatically performs inventory control. The quantity of products purchased is deducted from the available stock, ensuring the inventory is always up-to-date and avoiding inconsistencies.
 
+--- 
+
 ## Workflow Summary
 
 Register Section → 2. Register Category → 3. Register Product → 4. Add products to Cart → 5. Complete purchase and update Inventory.
